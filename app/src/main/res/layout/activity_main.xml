@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+<!--    <DatePicker-->
+<!--        android:id="@+id/datePicker1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:datePickerMode="spinner"-->
+<!--        android:calendarViewShown="false"-->
+<!--        />-->
+
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
@@ -24,11 +32,10 @@
 
     <EditText
         android:id="@+id/edt_date2"
-        style="@style/TextInputEditTextCalender"
+        style="@style/MySpinnerDatePickerStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:background="@drawable/layout_border"
         android:drawablePadding="16dp"
         android:hint="@string/enter_date"
         android:importantForAutofill="no"

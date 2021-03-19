@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
 
             DatePickerDialog(
-                this,
+                this, R.style.MySpinnerDatePickerStyle,
                 OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
                     binding.edtDate2.setText(dayOfMonth.toString() + "/" + (monthOfYear + 1) + "/" + year)
                 },
